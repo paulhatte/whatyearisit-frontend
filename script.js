@@ -1,4 +1,4 @@
-fetch('whatyearisit-backend-one-phi.vercel.app/year')
+fetch('http://whatyearisit-backend-one-phi.vercel.app/year')
     .then(result => result.json())
     .then(data => {
         console.log();
